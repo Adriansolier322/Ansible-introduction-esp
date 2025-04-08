@@ -6,9 +6,9 @@ Empieza con Ansible creando un proyecto de automatización, haciendo un inventor
 	pip install ansible
 	```
 2. Crea un directorio para el proyecto en tu sistema de archivos:
-```bash
+	```bash
 	mkdir ansible_quickstart && cd ansible_quickstart
-```
+	```
 
 Usando una estructura de un solo directorio sera mucho mas sencillo añadir recursos de control así como rehusar y compartir contenido de automatización. 
 
