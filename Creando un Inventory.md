@@ -3,13 +3,12 @@ Para completar los siguientes pasos, necesitas la dirección IP o el fully quali
 1. Crear un archivo llamado inventory.ini.
 	`nano inventory.ini`
 2. Añadimos un nuevo grupo llamado myhosts a inventory.ini y especificamos las IPs de las maquinas que queremos controlar.
-	![[img/Inventory_cap.png]]
+	![Grupo de hosts](img/Inventory_cap.png)
 3. Verificamos el inventario.
 	`ansible-inventory -i inventory.ini --list`
 4. Hacemos un ping a los equipos del inventario, siendo (usuario) sustituido por el nombre de usuario por el que accederá ansible a las maquinas vía ssh y con la opción -k le indicamos que nos pregunte por la contraseña a utilizar para dicha conexión.
 	`ansible myhosts -m ping -i inventory -u (usuario) -k`
-	
-	![[img/ansible_ping.png]]
+	![Realizar un ping a todos los equipos con ansible](img/ansible_ping.png)
 	>[!INFO] Nota
 	>
 	>También puedes utilizar las claves ssh para la conexión, simplemente añádelas al archivo /home/(usuario)/.ssh/authorized_keys

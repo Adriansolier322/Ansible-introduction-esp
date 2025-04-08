@@ -11,7 +11,7 @@ Ultima versión estable:  [Ver aquí](https://github.com/ansible/ansible/release
 Ansible automatiza la gestión remota de múltiples sistemas.
 
 Como se puede ver en el diagrama hay tres componentes principales:
-![[img/ansible_inv_start.svg]]
+![Mapa concepto de fucionamiento de ansible](img/ansible_inv_start.svg)
 
 ### Conceptos de Ansible
 Estos conceptos son comunes a todos los usos de Ansible. Deberías entenderlos antes de usar Ansible o leer la documentación.
