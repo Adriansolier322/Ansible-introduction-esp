@@ -1,4 +1,4 @@
-[Ansible]([https://www.ansible.com/](https://www.ansible.com)) es una plataforma de software libre para la configuración y administración de múltiples ordenadores.
+[Ansible](https://www.ansible.com)) es una plataforma de software libre para la configuración y administración de múltiples ordenadores.
 
 ## Alguna información
 Autor y desarrollador: [Michael Dehaan](https://github.com/mpdehaan)
@@ -11,7 +11,7 @@ Ultima versión estable:  [Ver aquí](https://github.com/ansible/ansible/release
 Ansible automatiza la gestión remota de múltiples sistemas.
 
 Como se puede ver en el diagrama hay tres componentes principales:
-![[ansible_inv_start.svg]]
+![[img/ansible_inv_start.svg]]
 
 ### Conceptos de Ansible
 Estos conceptos son comunes a todos los usos de Ansible. Deberías entenderlos antes de usar Ansible o leer la documentación.
