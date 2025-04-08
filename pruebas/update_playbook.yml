@@ -1,0 +1,7 @@
+- name: Update systems and clean
+  hosts: myhosts
+  tasks:
+   - name: update-system
+     ansible.builtin.apt:
+       upgrade: full
+       autoremove: true

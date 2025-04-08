@@ -1,0 +1,16 @@
+- name: My first play
+  hosts: myhosts
+  tasks:
+   - name: Ping my hosts
+     ansible.builtin.ping:
+
+   - name: copiar un archivo
+     ansible.builtin.template:
+       src: /home/adrian/Documentos/ansible/pruebas/test.txt
+       dest: /tmp/test.txt
+
+   - name: update-system
+     ansible.builtin.apt:
+       upgrade: yes
+       autoremove: true
+     remote_user: root
