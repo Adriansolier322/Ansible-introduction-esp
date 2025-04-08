@@ -16,7 +16,7 @@ Como se puede ver en el diagrama hay tres componentes principales:
 ### Conceptos de Ansible
 Estos conceptos son comunes a todos los usos de Ansible. Deberías entenderlos antes de usar Ansible o leer la documentación.
 
-- [Control node](##Control node)
+- [Control node](https://docs.ansible.com/ansible/latest/getting_started/basic_concepts.html#control-node)
 - [Managed nodes](https://docs.ansible.com/ansible/latest/getting_started/basic_concepts.html#managed-nodes)
 - [Inventory](https://docs.ansible.com/ansible/latest/getting_started/basic_concepts.html#inventory)
 - [Playbooks](https://docs.ansible.com/ansible/latest/getting_started/basic_concepts.html#playbooks)
