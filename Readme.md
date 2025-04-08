@@ -1,11 +1,11 @@
-[Ansible](https://www.ansible.com)) es una plataforma de software libre para la configuración y administración de múltiples ordenadores.
+[Ansible](https://www.ansible.com) es una plataforma de software libre para la configuración y administración de múltiples ordenadores.
 
 ## Alguna información
-Autor y desarrollador: [Michael Dehaan](https://github.com/mpdehaan)
-Lanzamiento inicial: 20 de febrero de 2012
-Licencia: [GLP-3.0](https://es.wikipedia.org/wiki/GNU_General_Public_License)
-Programado principalmente en: Python
-Ultima versión estable:  [Ver aquí](https://github.com/ansible/ansible/releases)
+- Autor y desarrollador: [Michael Dehaan](https://github.com/mpdehaan)
+- Lanzamiento inicial: 20 de febrero de 2012
+- Licencia: [GLP-3.0](https://es.wikipedia.org/wiki/GNU_General_Public_License)
+- Programado principalmente en: Python
+- Ultima versión estable:  [Ver aquí](https://github.com/ansible/ansible/releases)
 
 ## Empezando con Ansible
 Ansible automatiza la gestión remota de múltiples sistemas.
