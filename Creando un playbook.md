@@ -29,13 +29,13 @@ Completa los siguientes pasos para crear un playbook que hace un ping, copia un 
        autoremove: true
 	 remote_user: root
 	```
-	> [!WARNING]  Atención
-	> Comprueba que el usuario root de los 'managed nodes' tiene acceso por ssh mediante contraseña si no estas usando claves ssh.
+> [!WARNING]  
+> Comprueba que el usuario root de los 'managed nodes' tiene acceso por ssh mediante contraseña si no estas usando claves ssh.
 2. Ejecuta tu playbook.
 	`ansible-playbook -i inventory.ini playbook.yml -u (usuario) -k`
 	
-	> [!WARNING] Cuidado
-	> Si estas usando claves ssh en vez de contraseña omite la opción '-k'.
+> [!WARNING]  
+> Si estas usando claves ssh en vez de contraseña omite la opción '-k'.
 
 Ansible devuelve lo siguiente:
 ```bash
