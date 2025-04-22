@@ -14,10 +14,10 @@ Usando una estructura de un solo directorio sera mucho mas sencillo añadir recu
 
 
 ***
-> [!INFO] Ver también
->[Instalar Ansible](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html#installation-guide):
->    Guía de instalación de Ansible en varios sistemas operativos.
->[Demos de Ansible](https://github.com/ansible/product-demos):
+> [!TIP]
+>[Instalar Ansible](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html#installation-guide):  
+>    Guía de instalación de Ansible en varios sistemas operativos.  
+>[Demos de Ansible](https://github.com/ansible/product-demos):  
 >    Demostraciones de uso de Ansible
 
 
